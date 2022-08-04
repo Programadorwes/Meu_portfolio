@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+ html{
+    scroll-behavior: smooth;
+ }
+
+.background{
+    background-image: url(./Capa\ de\ perfil\ para\ banner\ de\ linkedIn\ engenharia\ e\ projetos.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+ 
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transform: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    float: left;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #f9004d;
+}
+
+h1{
+    border-right: 2px solid white;
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    outline: none;
+}
+
+.Container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+    
+}
+
+.background-color-Sobre{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Text-sobre{ 
+    width: 600px;
+    height: auto;
+  }
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.Text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.Text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+#botaowhats {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin: -25px 230px 50px;
+} 
+
+button{
+    background-color: #f9004d;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.Container-serviços{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+#memoria {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin: 80px;
+}
+
+.Card{
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 50px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+   /* Habilidades  */
+.habilidades {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.habilidades img{
+    display: center;
+    width: 150px;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 35px;
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais{
+    display: flex;
+    
+}
+
+.Redes-sociais a{
+    background-color: #f9004d;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px ;
+}
+
+/*   ANIMAÇÕESSSS */
+
+.PiscarCursor {
+    animation: PiscarCursor 500ms steps(40) infinite normal, Nome 4s steps(40) 1s normal both;
+}
+
+@keyframes Nome { 
+    from{
+        width: 0;
+    }
+     to{
+        width: 8.5em;
+     }
+}
+
+
+@keyframes PiscarCursor {
+    
+    from{
+        border-right-color: #fff;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
